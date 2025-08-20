@@ -21,7 +21,7 @@ const Services = () => {
 
   return (
     <section className="w-full overflow-x-hidden">
-     
+      {/* Header */}
       <div
         className="relative w-screen h-72 md:h-80 flex items-center justify-center text-white mb-16"
         style={{
@@ -34,19 +34,19 @@ const Services = () => {
         <h2 className="text-4xl md:text-5xl font-bold z-10">Our Services</h2>
       </div>
 
-       
+      {/* Cards */}
       <div className="max-w-6xl mx-auto pt-4 pb-16 px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
         {cards.map((card, index) => (
           <div
             key={index}
             onClick={() => setActiveCard(index)}
-            className={`p-8 rounded-md shadow-md cursor-pointer transition-all duration-300 transform
+            className={`p-8 rounded-md shadow-md cursor-pointer transition-all duration-300 transform border-2
               ${
                 activeCard === index
-                  ? "bg-blue-600 text-white"
-                  : "bg-[#0B1140] text-white hover:bg-blue-500"
+                  ? "bg-blue-900 text-white border-blue-900"
+                  : "bg-white text-blue-900 border-blue-900 hover:bg-blue-100 hover:text-blue-900"
               }
-              hover:-translate-y-2 hover:scale-[1.03]`}
+              hover:-translate-y-1 hover:scale-[1.03]`}
           >
             <h3 className="text-xl font-semibold mb-4">{card.title}</h3>
             <p>{card.description}</p>
