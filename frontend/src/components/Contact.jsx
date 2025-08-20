@@ -12,11 +12,11 @@ const Contact = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      {/* Dark overlay */}
+     
      
 
       <div className="relative max-w-6xl w-full px-6 grid md:grid-cols-2 gap-12 text-white z-10">
-        {/* Left Side Contact Info */}
+        
         <div className="space-y-6">
           <h2 className="text-5xl font-extrabold">Reach Us</h2>
           <p className="text-lg opacity-90">Contact</p>
@@ -27,7 +27,7 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* Right Side Form */}
+         
         <form className="space-y-6 bg-white/5 border border-white/20 backdrop-blur-sm p-8 rounded-2xl shadow-lg">
           <div className="space-y-1">
             <label className="block text-sm font-medium">Your Name</label>
