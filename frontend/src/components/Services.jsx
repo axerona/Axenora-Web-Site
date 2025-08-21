@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { FaRobot, FaShieldAlt, FaGamepad, FaLaptopCode, FaMobileAlt, FaServer } from "react-icons/fa";
 import bg from "../assets/ser.png";
 
 const Services = () => {
-  const [activeTab, setActiveTab] = useState(0);
 
   const services = [
     {
@@ -16,18 +15,6 @@ const Services = () => {
         "Predictive analytics",
         "Natural language processing",
         "Computer vision solutions"
-      ]
-    },
-    {
-      title: "Cyber Security",
-      icon: <FaShieldAlt className="text-3xl text-blue-400" />,
-      description: "Comprehensive security solutions to protect your digital assets.",
-      features: [
-        "Vulnerability assessment",
-        "Penetration testing",
-        "Security monitoring",
-        "Incident response",
-        "Security awareness training"
       ]
     },
     {
@@ -65,26 +52,7 @@ const Services = () => {
         "App store optimization",
         "Maintenance & support"
       ]
-    },
-    {
-      title: "Cloud Solutions",
-      icon: <FaServer className="text-3xl text-blue-400" />,
-      description: "Scalable cloud infrastructure and services for your business needs.",
-      features: [
-        "Cloud migration",
-        "AWS/Azure/GCP services",
-        "Serverless architecture",
-        "DevOps automation",
-        "Cloud security"
-      ]
     }
-  ];
-
-  const categories = [
-    { name: 'All Services', filter: 'all' },
-    { name: 'Development', filter: 'development' },
-    { name: 'Security', filter: 'security' },
-    { name: 'AI & ML', filter: 'ai' }
   ];
 
   return (
@@ -111,24 +79,7 @@ const Services = () => {
 
       {/* Services Section */}
       <div className="max-w-7xl mx-auto px-6 py-16">
-        {/* Category Filter */}
-        <div className="flex flex-wrap justify-center gap-3 mb-12">
-          {categories.map((category, index) => (
-            <button
-              key={index}
-              onClick={() => setActiveTab(index)}
-              className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
-                activeTab === index
-                  ? 'bg-blue-600 text-white'
-                  : 'bg-gray-800 text-gray-300 hover:bg-gray-700'
-              }`}
-            >
-              {category.name}
-            </button>
-          ))}
-        </div>
-
-        {/* Services Grid */}
+          {/* Services Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div 
