@@ -1,5 +1,5 @@
 import React from "react";
-import bg from "../assets/car.png";  
+import bg from "../assets/con.png";  
 
 const Contact = () => {
   return (
