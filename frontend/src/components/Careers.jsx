@@ -1,5 +1,5 @@
 import React from "react";
-import carImage from "../assets/car.png"; 
+import carImage from "../assets/car.png";
 
 const Careers = () => {
   return (
@@ -8,15 +8,15 @@ const Careers = () => {
       className="relative min-h-screen bg-[#0a0f2c] text-gray-200 flex items-center"
     >
       <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center px-8 md:px-16">
-        
-         
+
+
         <div>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Join our Team
           </h2>
           <p className="text-gray-400 mb-6 leading-relaxed">
-            We're always looking for talented individuals passionate about 
-            innovation and technology. If you want to be part of Axenora's 
+            We're always looking for talented individuals passionate about
+            innovation and technology. If you want to be part of Axenora's
             journey, check out our open positions below.
           </p>
 
@@ -37,7 +37,7 @@ const Careers = () => {
             </a>
           </p>
         </div>
- 
+
         <div className="hidden md:block absolute right-0 top-0 h-full">
           <img
             src={carImage}

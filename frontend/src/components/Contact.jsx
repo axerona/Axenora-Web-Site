@@ -1,5 +1,5 @@
 import React from "react";
-// import bg from "../assets/con.png";
+import bg from "../assets/con.png";
 
 const Contact = () => {
   return (
@@ -12,8 +12,6 @@ const Contact = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-
-
 
       <div className="relative max-w-6xl w-full px-6 grid md:grid-cols-2 gap-12 text-white z-10">
 
