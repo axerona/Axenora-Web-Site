@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import Careers from "./components/Careers";
 import Footer from "./components/Footer";
 import AboutUs from "./components/AboutUs";
+import Pricing from "./components/Pricing";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/careers" element={<Careers />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<AboutUs />} />
+            <Route path="/pricing" element={<Pricing />} />
           </Routes>
         </main>
 
