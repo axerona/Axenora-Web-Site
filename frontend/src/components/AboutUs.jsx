@@ -10,6 +10,7 @@ const AboutUs = () => {
                 backgroundSize: "cover",
                 backgroundPosition: "center center",
                 backgroundRepeat: "no-repeat",
+		zIndex: -1,
             }}
         >
             <div className="absolute inset-0 bg-black/50"></div>
