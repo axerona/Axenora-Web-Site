@@ -11,7 +11,7 @@ const Careers = () => {
 
 
         <div>
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent mb-6">
             Join our Team
           </h2>
           <p className="text-gray-400 mb-6 leading-relaxed">

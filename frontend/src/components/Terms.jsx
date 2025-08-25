@@ -16,7 +16,7 @@ const Terms = () => {
         </div>
 
         <div className="relative z-10 text-center px-6">
-          <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-4">
+          <h1 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent mb-4">
             Terms & Conditions
           </h1>
           <div className="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>

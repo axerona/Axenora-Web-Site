@@ -203,8 +203,7 @@ const Pricing = () => {
 
       <div className="relative max-w-7xl mx-auto px-6 z-10">
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-extrabold mb-4 text-white">Our Pricing</h2>
-          <div className="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
+          <h1 className="text-5xl font-extrabold mb-6 bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">Our Pricing</h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Competitive pricing for all your digital needs. Partner prices available for resellers and agencies.
           </p>
@@ -249,21 +248,11 @@ const Pricing = () => {
           <h3 className="text-2xl font-bold mb-6 text-white text-center">Add-Ons</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
             {addOns.map((item, index) => (
-              <div key={index} className="bg-white backdrop-blur-sm rounded-lg p-4 text-center border border-white/10">
+              <div key={index} className="bg-white/90 backdrop-blur-sm rounded-lg p-4 text-center border border-white/10">
                 <h4 className="font-semibold text-blue-400">{item.name}</h4>
                 <p className="text-sm">{item.price}</p>
               </div>
             ))}
-          </div>
-        </section>
-
-        {/* Contact Section */}
-        <section className="text-center mt-16 pt-8 border-t border-white/10">
-          <h3 className="text-2xl font-bold mb-6 text-white">Contact Us</h3>
-          <div className="space-y-2 text-gray-300">
-            <p>Chamara Ruwan</p>
-            <p>📧 Email: <a href="mailto:contact@axenora.lk" className="text-blue-400 hover:underline">contact@axenora.lk</a></p>
-            <p>📱 Phone: <a href="tel:+94705768036" className="text-blue-400 hover:underline">+94 70 576 8036</a></p>
           </div>
         </section>
       </div>

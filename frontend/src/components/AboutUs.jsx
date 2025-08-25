@@ -17,8 +17,7 @@ const AboutUs = () => {
 
             <div className="relative max-w-6xl w-full px-6 py-16 text-white z-10">
                 <div className="text-center mb-12">
-                    <h2 className="text-5xl font-extrabold mb-4">About Axenora</h2>
-                    <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
+                    <h2 className="text-5xl font-extrabold bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent mb-4">About Axenora</h2>
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -26,41 +25,66 @@ const AboutUs = () => {
                         <div>
                             <h3 className="text-2xl font-bold mb-4">Our Story</h3>
                             <p className="text-gray-300 leading-relaxed">
-                                At Axenora, we are passionate about delivering innovative solutions that drive business success.
-                                Founded with a vision to transform the digital landscape, we have grown to become a trusted partner
-                                for businesses seeking cutting-edge technology solutions.
+                                At Axenora Technology, we are driven by a single vision: Innovating the Future. We are a Sri Lanka–based IT company dedicated to creating cutting-edge digital solutions that transform the way people live, work, and connect. Our passion lies in merging creativity with advanced technology to design products that don't just serve today's needs but also shape tomorrow's world.
                             </p>
                         </div>
 
                         <div className="space-y-6">
                             <div>
                                 <h4 className="text-xl font-semibold mb-2">Our Mission</h4>
-                                <p className="text-gray-300">To empower businesses with innovative technology solutions that drive growth and success.</p>
+                                <p className="text-gray-300">To create futuristic digital products that combine artificial intelligence, design, and innovation to empower individuals, businesses, and communities.</p>
                             </div>
 
                             <div>
                                 <h4 className="text-xl font-semibold mb-2">Our Vision</h4>
-                                <p className="text-gray-300">To be the leading technology partner that transforms businesses through digital innovation.</p>
+                                <p className="text-gray-300">To be a global leader in next-generation IT solutions, known for creativity, reliability, and innovation — shaping a smarter and safer digital future.</p>
                             </div>
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-2 gap-6">
-                        <div className="bg-white/5 border border-white/20 backdrop-blur-sm p-6 rounded-2xl text-center">
-                            <h3 className="text-3xl font-bold text-blue-400 mb-2">1+</h3>
-                            <p className="text-gray-300">Years of Experience</p>
+                    <div className="space-y-8">
+                        <div className="bg-white/5 border border-white/20 backdrop-blur-sm p-6 rounded-2xl">
+                            <h3 className="text-2xl font-bold mb-4">Our Core Values</h3>
+                            <ul className="space-y-3">
+                                <li className="flex items-start">
+                                    <span className="text-blue-400 mr-2">•</span>
+                                    <span className="text-gray-300"><span className="font-semibold">Innovation</span> – Turning bold ideas into transformative technology.</span>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="text-blue-400 mr-2">•</span>
+                                    <span className="text-gray-300"><span className="font-semibold">Excellence</span> – Delivering products that are reliable, scalable, and user-focused.</span>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="text-blue-400 mr-2">•</span>
+                                    <span className="text-gray-300"><span className="font-semibold">Trust & Security</span> – Protecting user data and ensuring transparency in every product.</span>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="text-blue-400 mr-2">•</span>
+                                    <span className="text-gray-300"><span className="font-semibold">Global Vision</span> – Building solutions that can impact people worldwide, not just locally.</span>
+                                </li>
+                            </ul>
                         </div>
-                        <div className="bg-white/5 border border-white/20 backdrop-blur-sm p-6 rounded-2xl text-center">
-                            <h3 className="text-3xl font-bold text-blue-400 mb-2">10+</h3>
-                            <p className="text-gray-300">Projects Completed</p>
-                        </div>
-                        <div className="bg-white/5 border border-white/20 backdrop-blur-sm p-6 rounded-2xl text-center">
-                            <h3 className="text-3xl font-bold text-blue-400 mb-2">10+</h3>
-                            <p className="text-gray-300">Team Members</p>
-                        </div>
-                        <div className="bg-white/5 border border-white/20 backdrop-blur-sm p-6 rounded-2xl text-center">
-                            <h3 className="text-3xl font-bold text-blue-400 mb-2">100%</h3>
-                            <p className="text-gray-300">Client Satisfaction</p>
+                        <div className="bg-white/5 border border-white/20 backdrop-blur-sm p-6 rounded-2xl">
+                            <h3 className="text-2xl font-bold mb-4">Our Innovations</h3>
+                            <p className="text-gray-300 mb-4">From AI-powered innovations to next-generation gaming projects, Axenora continues to push the boundaries of possibility:</p>
+                            <ul className="space-y-2">
+                                <li className="flex items-start">
+                                    <span className="text-blue-400 mr-2">•</span>
+                                    <span className="text-gray-300"><span className="font-medium">Project Fly</span> – A smart game pattern prediction tool</span>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="text-blue-400 mr-2">•</span>
+                                    <span className="text-gray-300"><span className="font-medium">Dream AI</span> – An AI-powered dream-to-video generator</span>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="text-blue-400 mr-2">•</span>
+                                    <span className="text-gray-300"><span className="font-medium">BlurShield AI</span> – A child-safety solution for real-time content filtering</span>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="text-blue-400 mr-2">•</span>
+                                    <span className="text-gray-300"><span className="font-medium">Project Shadow</span> – Next-generation gaming experience</span>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
