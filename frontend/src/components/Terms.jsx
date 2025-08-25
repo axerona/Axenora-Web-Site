@@ -102,10 +102,7 @@ const Terms = () => {
           </div>
         </div>
 
-        <p className="mt-12 text-center text-gray-400 text-sm">
-          &copy; {new Date().getFullYear()} Axenora Technology. All Rights
-          Reserved.
-        </p>
+         
       </div>
     </section>
   );
