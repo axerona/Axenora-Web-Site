@@ -5,11 +5,11 @@ const Navbar = () => {
   const location = useLocation();
   const links = [
     { name: "Home", path: "/" },
+    { name: "About Us", path: "/about" },
     { name: "Services", path: "/services" },
     { name: "Pricing", path: "/pricing" },
     { name: "Careers", path: "/careers" },
     { name: "Contact", path: "/contact" },
-    { name: "About Us", path: "/about" },
   ];
 
   return (
