@@ -28,12 +28,12 @@ const Careers = () => {
           </ul>
 
           <p className="mt-8 text-gray-300">
-            send your CV to:{" "}
+            Send your CV to:{" "}
             <a
               href="mailto:careers@axenora.com"
               className="text-indigo-400 hover:underline"
             >
-              careers@axenora.com
+              info@axenoratechnology.com
             </a>
           </p>
         </div>
