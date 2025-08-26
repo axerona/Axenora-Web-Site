@@ -71,7 +71,10 @@ const Footer = () => {
               <span className="w-1 h-1 bg-blue-400 rounded-full mt-2.5 mr-2 flex-shrink-0 group-hover:scale-125 transition-transform"></span>
               Services
             </Link></li>
-             
+            {/* <li><Link to="/blogs" className="text-gray-400 hover:text-white transition-colors flex items-start group">
+              <span className="w-1 h-1 bg-blue-400 rounded-full mt-2.5 mr-2 flex-shrink-0 group-hover:scale-125 transition-transform"></span>
+              Blogs
+            </Link></li> */}
             <li><Link to="/pricing" className="text-gray-400 hover:text-white transition-colors flex items-start group">
               <span className="w-1 h-1 bg-blue-400 rounded-full mt-2.5 mr-2 flex-shrink-0 group-hover:scale-125 transition-transform"></span>
               Pricing
