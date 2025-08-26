@@ -50,10 +50,10 @@ const Footer = () => {
               <span className="w-1 h-1 bg-blue-400 rounded-full mt-2.5 mr-2 flex-shrink-0 group-hover:scale-125 transition-transform"></span>
               Terms & Conditions
             </Link></li>
-            <li><Link to="/customers" className="text-gray-400 hover:text-white transition-colors flex items-start group">
+            {/* <li><Link to="/customers" className="text-gray-400 hover:text-white transition-colors flex items-start group">
               <span className="w-1 h-1 bg-blue-400 rounded-full mt-2.5 mr-2 flex-shrink-0 group-hover:scale-125 transition-transform"></span>
               Customers
-            </Link></li>
+            </Link></li> */}
             <li><Link to="/contact" className="text-gray-400 hover:text-white transition-colors flex items-start group">
               <span className="w-1 h-1 bg-blue-400 rounded-full mt-2.5 mr-2 flex-shrink-0 group-hover:scale-125 transition-transform"></span>
               Contact us
@@ -71,10 +71,10 @@ const Footer = () => {
               <span className="w-1 h-1 bg-blue-400 rounded-full mt-2.5 mr-2 flex-shrink-0 group-hover:scale-125 transition-transform"></span>
               Services
             </Link></li>
-            <li><Link to="/blogs" className="text-gray-400 hover:text-white transition-colors flex items-start group">
+            {/* <li><Link to="/blogs" className="text-gray-400 hover:text-white transition-colors flex items-start group">
               <span className="w-1 h-1 bg-blue-400 rounded-full mt-2.5 mr-2 flex-shrink-0 group-hover:scale-125 transition-transform"></span>
               Blogs
-            </Link></li>
+            </Link></li> */}
             <li><Link to="/pricing" className="text-gray-400 hover:text-white transition-colors flex items-start group">
               <span className="w-1 h-1 bg-blue-400 rounded-full mt-2.5 mr-2 flex-shrink-0 group-hover:scale-125 transition-transform"></span>
               Pricing
@@ -112,7 +112,6 @@ const Footer = () => {
         <div className="flex space-x-6">
           <Link to="/terms" className="hover:text-white transition-colors">Terms</Link>
           <Link to="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
-          <Link to="/cookies" className="hover:text-white transition-colors">Cookies</Link>
         </div>
       </div>
     </footer>
