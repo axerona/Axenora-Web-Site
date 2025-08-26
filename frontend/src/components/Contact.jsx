@@ -75,10 +75,12 @@ const Contact = () => {
               <div>
                 <h3 className="font-semibold text-lg">Call Us</h3>
                 <a 
-                  href="tel:+94 70 576 8036" 
+                  href="https://wa.me/94715797188"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-blue-300 hover:text-blue-200 transition-colors"
                 >
-                  +94 70 576 8036
+                  +94 71 579 7188
                 </a>
               </div>
             </div>

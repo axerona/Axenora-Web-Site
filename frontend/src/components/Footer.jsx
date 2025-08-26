@@ -39,7 +39,7 @@ const Footer = () => {
               <FaLinkedinIn className="text-gray-300 group-hover:text-white transition-colors" />
             </a>
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/share/1G2ncdeTnh/?mibextid=wwXIfr"
               target="_blank"
               rel="noreferrer"
               className="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center rounded-full bg-white/5 hover:bg-blue-700/30 transition-all duration-300 group"
@@ -47,7 +47,7 @@ const Footer = () => {
               <FaFacebookF className="text-gray-300 group-hover:text-white transition-colors" />
             </a>
             <a
-              href="https://twitter.com"
+              href="https://x.com/AxenoraT"
               target="_blank"
               rel="noreferrer"
               className="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center rounded-full bg-white/5 hover:bg-blue-700/30 transition-all duration-300 group"
@@ -147,10 +147,12 @@ const Footer = () => {
             <li className="flex items-start">
               <FaPhoneAlt className="text-blue-400 mt-1 mr-3 flex-shrink-0" />
               <a
-                href="tel:+94705768036"
+                href="https://wa.me/94715797188"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
               >
-                +94 70 576 8036
+                +94 71 579 7188
               </a>
             </li>
           </ul>
