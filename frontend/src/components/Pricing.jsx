@@ -203,49 +203,49 @@ const Pricing = () => {
 
       <div className="relative max-w-7xl mx-auto px-6 z-10">
         <div className="text-center mb-16">
-          <h1 className="text-5xl font-extrabold mb-6 bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">Our Pricing</h1>
+          <h1 className="text-5xl font-extrabold mb-6 bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">
+            <span className="inline-block pb-1 leading-tight">Our Pricing</span>
+          </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Competitive pricing for all your digital needs. Partner prices available for resellers and agencies.
           </p>
         </div>
 
-        {/* LMS Development Packages */}
+        
         <section className="mb-20">
-          <h3 className="text-3xl font-bold mb-8 text-white text-center">LMS Development Packages</h3>
+          <h3 className="text-lg font-semibold mb-6 text-white text-center">LMS Development Packages</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {lmsPackages.map((pkg, index) => renderPriceCard(pkg, index))}
           </div>
         </section>
 
-        {/* Website Development Packages */}
+         
         <section className="mb-20">
-          <h3 className="text-3xl font-bold mb-8 text-white text-center">Website Development Packages</h3>
+          <h3 className="text-lg font-semibold mb-6 text-white text-center">Website Development Packages</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {websitePackages.map((pkg, index) => renderPriceCard(pkg, index))}
           </div>
         </section>
 
         <div className="grid md:grid-cols-2 gap-12 mb-20">
-          {/* Creative Design Services */}
+           
           <section>
-            <h3 className="text-2xl font-bold mb-6 text-white border-b pb-2 border-blue-600">Creative Design Services</h3>
+            <h3 className="text-sm font-semibold mb-4 text-white border-b pb-2 border-blue-600">Creative Design Services</h3>
             <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10">
               {designServices.map((item, index) => renderSimplePriceItem(item, index))}
             </div>
           </section>
-
-          {/* Mobile App Development */}
+ 
           <section>
-            <h3 className="text-2xl font-bold mb-6 text-white border-b pb-2 border-blue-600">Mobile App Development</h3>
+            <h3 className="text-sm font-semibold mb-4 text-white border-b pb-2 border-blue-600">Mobile App Development</h3>
             <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10">
               {mobileAppPackages.map((item, index) => renderSimplePriceItem(item, index))}
             </div>
           </section>
         </div>
-
-        {/* Add-ons */}
+ 
         <section className="mb-12">
-          <h3 className="text-2xl font-bold mb-6 text-white text-center">Add-Ons</h3>
+          <h3 className="text-sm font-semibold mb-6 text-white text-center">Add-Ons</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
             {addOns.map((item, index) => (
               <div key={index} className="bg-white/90 backdrop-blur-sm rounded-lg p-4 text-center border border-white/10">
